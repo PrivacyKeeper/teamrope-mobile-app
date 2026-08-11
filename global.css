@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "uniwind";
+
+/* Palette read from the shipped teamrope.pro stylesheet, so the app
+   matches the site a user just came from. */
+@theme {
+  --color-background: #150e09;
+  --color-surface: #1f1610;
+  --color-card: #281d15;
+  --color-border: #43332561;
+  --color-text: #e0d2bd;
+  --color-muted: #b09a82;
+  --color-accent: #d2803f;
+  --color-accentAlt: #f3e7d3;
+  --color-cream: #f3e7d3;
+  --color-success: #4ba36b;
+  --color-warning: #d99a2b;
+  --color-danger: #c8503f;
+}
