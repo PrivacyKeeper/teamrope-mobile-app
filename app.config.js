@@ -6,10 +6,12 @@ module.exports = {
     slug: "teamrope",
     scheme: "teamrope",
     version: '0.1.0',
+    icon: './assets/icon.png',
     orientation: 'portrait',
     userInterfaceStyle: 'dark',
     newArchEnabled: true,
     splash: {
+      image: './assets/splash.png',
       resizeMode: 'contain',
       backgroundColor: "#150e09",
     },
@@ -30,6 +32,7 @@ module.exports = {
     android: {
       package: "pro.teamrope.app",
       adaptiveIcon: {
+        foregroundImage: './assets/adaptive-icon.png',
         backgroundColor: "#150e09",
       },
       edgeToEdgeEnabled: true,
@@ -40,7 +43,7 @@ module.exports = {
         },
       },
     },
-    web: { bundler: 'metro', output: 'static' },
+    web: { bundler: 'metro', output: 'static', favicon: './assets/favicon.png' },
     plugins: [
       'expo-router',
       'expo-video',
